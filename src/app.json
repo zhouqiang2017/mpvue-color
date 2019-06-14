@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/component/main",
+    "pages/plugin/main",
+    "pages/about/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#39b54a",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "元素",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/images/tabbar/basics.png",
+      "selectedIconPath": "static/images/tabbar/basics_cur.png"
+    }, {
+      "text": "组件",
+      "pagePath": "pages/component/main",
+      "iconPath": "static/images/tabbar/component.png",
+      "selectedIconPath": "static/images/tabbar/component_cur.png"
+    }, {
+      "text": "扩展",
+      "pagePath": "pages/plugin/main",
+      "iconPath": "static/images/tabbar/plugin.png",
+      "selectedIconPath": "static/images/tabbar/plugin_cur.png"
+    }, {
+      "text": "关于",
+      "pagePath": "pages/about/main",
+      "iconPath": "static/images/tabbar/about.png",
+      "selectedIconPath": "static/images/tabbar/about_cur.png"
+    }],
+
+    "items": [{
+      "name": "元素",
+      "pagePath": "pages/index/main",
+      "icon": "static/images/tabbar/basics.png",
+      "activeIcon": "static/images/tabbar/basics_cur.png"
+    }, {
+      "name": "组件",
+      "pagePath": "pages/component/main",
+      "icon": "static/images/tabbar/component.png",
+      "activeIcon": "static/images/tabbar/component.png"
+    }, {
+      "name": "扩展",
+      "pagePath": "pages/plugin/main",
+      "icon": "static/images/tabbar/plugin.png",
+      "activeIcon": "static/images/tabbar/plugin_cur.png"
+    }, {
+      "name": "关于",
+      "pagePath": "pages/about/main",
+      "icon": "static/images/tabbar/about.png",
+      "activeIcon": "static/images/tabbar/about_cur.png"
+    }],
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "cu-custom": "/static/colorui/components/cu-custom"
+  }
+}

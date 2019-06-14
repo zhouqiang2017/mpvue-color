@@ -1,0 +1,3 @@
+export const CHANGE_BAR_INDEX = 'CHANGE_BAR_INDEX'
+
+
